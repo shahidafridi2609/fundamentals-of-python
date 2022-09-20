@@ -1,0 +1,16 @@
+Write a python program to check whether the given character is vowel or consonant or Not an alphabet.
+
+Sample Input: 
+a 
+
+Sample Output: 
+Vowel
+
+program:
+a=input()
+if(a in "aeiou"):
+    print("Vowel")
+elif(a in "bcdfghklmnpqrstvwxyz"):
+    print("Consonant")
+else:
+    print("Not an alphabet")
