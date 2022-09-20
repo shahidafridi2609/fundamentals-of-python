@@ -1,0 +1,55 @@
+Write a program to determine the fee amount to be collected from a student. The input to the program are the type of the student, tuition fee, bus fee, hostel fee.
+Refer the table below for fee details.
+
+Student Type:                                             Student Type denoted as:                           Fee Details:
+Merit Seat Day Scholar                                         		MSDS                                   Tuition fee + Bus fee
+Merit Seat Hosteller                                              MSH                                    Tuition fee + Hostel fee
+Management Seat Day Scholar                                       MGSDS                                  150% of Tuition fee + Bus fee
+Management Seat Hosteller                                         MGSH                                   150% of Tuition fee + Hostel fee
+
+Sample Input and Output:
+Enter the student type                                      Enter tuition fee                            Enter hostel fee
+MSH                                                             40000                                     50000
+The fees to be paid by the student is Rs.90000.00
+
+program:
+st=input()
+if(st=="MSDS" or st=="MSH" or st=="MGSDS" or st=="MGSH"):
+    if(st=="MSDS"):
+        tf=float(input())
+        bf=float(input())
+        print("Enter the student type")
+        print("Enter tuition fee")
+        print("Enter bus fee")
+        x=tf+bf
+        print("The fees to be paid by the student is Rs.""{:.2f}".format(x))
+    elif(st=="MSH"):
+        tf=float(input())
+        hf=float(input())
+        print("Enter the student type")
+        print("Enter tuition fee")
+        print("Enter hostel fee")
+        x=tf+hf
+        print("The fees to be paid by the student is Rs.""{:.2f}".format(x))
+    elif(st=="MGSDS"):
+        tf=float(input())
+        bf=float(input())
+        print("Enter the student type")
+        print("Enter tuition fee")
+        print("Enter bus fee")
+        x=((1.5*tf)+bf)
+        print("The fees to be paid by the student is Rs.""{:.2f}".format(x))
+    elif(st=="MGSH"):
+        tf=float(input())
+        hf=float(input())
+        print("Enter the student type")
+        print("Enter tuition fee")
+        print("Enter hostel fee")
+        x=((1.5*tf)+hf)
+        print("The fees to be paid by the student is Rs.""{:.2f}".format(x))
+else:
+    print("enter valid student type")
+
+
+
+ 
