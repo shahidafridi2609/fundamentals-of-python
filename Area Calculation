@@ -1,0 +1,25 @@
+Sheela has three things in her bag. She wants to compute the area of 3 things but 3 things are in different shapes. The three things are in square shape,
+rectangular shape, and circular shape respectively. Write a program to help Sheela to calculate the area of different shapes. 
+
+Sample Input: 
+5
+5
+4
+2.0
+
+Sample Output: 
+25
+20
+12.56
+
+program:
+a=int(input())
+l=int(input())
+b=int(input())
+r=float(input())
+w=a*a
+x=l*b
+y=float(3.14*r*r)
+print(w)
+print(x)
+print('%.2f'%y)
