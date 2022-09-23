@@ -1,0 +1,16 @@
+pow() function is used to calculate the power of any base and it is defined in math header file. Write a program to read X as the base and N as the power and calculate
+the result (X^N - X to the power of N). 
+
+
+Sample Input:
+ 2
+ 3
+
+ Sample Output:
+ 8
+ 
+program:
+a=int(input())
+b=int(input())
+c=a**b
+print(c)
