@@ -1,0 +1,12 @@
+Write a program to find the cube of a number using function.
+
+Sample Input & Output:
+5
+
+125
+
+program:
+def fun(n):
+    return(n**3)
+n=int(input())
+print(fun(n))
