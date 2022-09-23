@@ -6,11 +6,19 @@ Sample Input & Output:
 Strong Number
 
 program:
-n=int(input())
-rev=0
-while n!=0:
-    rem=n%10
-    rev=rev*10+rem
-    n=n//10
-print(rev)
-
+num=int(input())  
+sum=0  
+temp=num  
+while(num):
+    i=1  
+    fact=1  
+    rem=num%10  
+    while(i<=rem):  
+        fact=fact*i    
+        i=i+1  
+    sum=sum+fact  
+    num=num//10  
+if(sum==temp):  
+    print("Strong number")  
+else:  
+    print("Not a strong number")  
