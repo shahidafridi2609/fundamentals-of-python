@@ -1,0 +1,12 @@
+Write a program to find the Square of a number using function.
+
+Sample Input & Output:
+5
+
+25
+
+program:
+def fun(n):
+    return(n*n)
+n=int(input())
+print(fun(n))
