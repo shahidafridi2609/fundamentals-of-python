@@ -1,0 +1,17 @@
+Write a program to create a list and display it. 
+
+Sample Input
+4  
+1 2 3 4
+
+Output
+1 2 3 4
+
+program:
+#python
+n=int(input())
+a=[]
+for i in range(0,n):
+	t=int(input())
+	a.append(t)
+print(a) 
