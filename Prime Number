@@ -1,0 +1,21 @@
+Write a program to find whether the given number is Prime number or Not.
+
+
+Sample Input:
+2
+
+Sample Output:
+Prime Number
+
+program:
+n=int(input())
+count=0
+for i in range(2,n//2):
+    if n%i==0:
+        count=count+1
+if count==0:
+    print("Prime Number")
+else:
+    print("Not a Prime")
+
+
