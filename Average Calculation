@@ -1,0 +1,12 @@
+A teacher wants to compute the average of 5 students in her class. Write a program to help her to find the average. The average is the sum of all the numbers,
+then divided by the total numbers. 
+
+Sample Input: 
+10
+20
+30
+40
+50 
+
+Sample Output:
+ 30.00
