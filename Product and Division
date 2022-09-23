@@ -1,0 +1,21 @@
+Write a python program to get 2 numbers from the user and calculate their product, quotient and remainder using '*', '/' and '%' operators respectively.
+Print the corresponding product, quotient and remainder of the numbers as output in the console. 
+
+Sample Input:
+50
+10
+
+Sample Output:
+500
+5
+0
+
+program:
+a=int(input())
+b=int(input())
+c=a*b
+d=a//b
+e=a%b
+print(c)
+print(d)
+print(e)
