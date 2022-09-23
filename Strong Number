@@ -1,0 +1,16 @@
+Program to check if a given number is a strong number or not is discussed here. A strong number is a number in which the sum of the factorial of the digits 
+is equal to the number itself.
+
+Sample Input & Output:
+145
+Strong Number
+
+program:
+n=int(input())
+rev=0
+while n!=0:
+    rem=n%10
+    rev=rev*10+rem
+    n=n//10
+print(rev)
+
